@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* TemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TemplateTests.m */; };
+		00E356F31AD99517003FC87E /* BoardGameKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BoardGameKeeperTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		28338E37F2BF5399B3D63257 /* libPods-Template-TemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A63AAD9CBD7C50796E55EB /* libPods-Template-TemplateTests.a */; };
+		28338E37F2BF5399B3D63257 /* libPods-BoardGameKeeper-BoardGameKeeperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A63AAD9CBD7C50796E55EB /* libPods-BoardGameKeeper-BoardGameKeeperTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A50FA49D59D9964FADEE4F6F /* libPods-Template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FC5926642378387484784C /* libPods-Template.a */; };
+		A50FA49D59D9964FADEE4F6F /* libPods-BoardGameKeeper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FC5926642378387484784C /* libPods-BoardGameKeeper.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Template;
+			remoteInfo = BoardGameKeeper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BoardGameKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGameKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* TemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Template/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Template/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Template/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Template/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Template/main.m; sourceTree = "<group>"; };
-		2820A93A30554BC345D266EC /* Pods-Template-TemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-TemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		408DCACEAB5AB31220EF35F1 /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
-		45A63AAD9CBD7C50796E55EB /* libPods-Template-TemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Template-TemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48FC5926642378387484784C /* libPods-Template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Template/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BA4D914F89AA059BEB7AB8B /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BoardGameKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardGameKeeperTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BoardGameKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardGameKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BoardGameKeeper/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BoardGameKeeper/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BoardGameKeeper/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BoardGameKeeper/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BoardGameKeeper/main.m; sourceTree = "<group>"; };
+		2820A93A30554BC345D266EC /* Pods-BoardGameKeeper-BoardGameKeeperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardGameKeeper-BoardGameKeeperTests.debug.xcconfig"; path = "Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		408DCACEAB5AB31220EF35F1 /* Pods-BoardGameKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardGameKeeper.release.xcconfig"; path = "Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		45A63AAD9CBD7C50796E55EB /* libPods-BoardGameKeeper-BoardGameKeeperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoardGameKeeper-BoardGameKeeperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FC5926642378387484784C /* libPods-BoardGameKeeper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoardGameKeeper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BoardGameKeeper/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BA4D914F89AA059BEB7AB8B /* Pods-BoardGameKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardGameKeeper.debug.xcconfig"; path = "Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EED5ECE94E08B519977F1FA5 /* Pods-Template-TemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template-TemplateTests.release.xcconfig"; path = "Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		EED5ECE94E08B519977F1FA5 /* Pods-BoardGameKeeper-BoardGameKeeperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardGameKeeper-BoardGameKeeperTests.release.xcconfig"; path = "Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28338E37F2BF5399B3D63257 /* libPods-Template-TemplateTests.a in Frameworks */,
+				28338E37F2BF5399B3D63257 /* libPods-BoardGameKeeper-BoardGameKeeperTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50FA49D59D9964FADEE4F6F /* libPods-Template.a in Frameworks */,
+				A50FA49D59D9964FADEE4F6F /* libPods-BoardGameKeeper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* TemplateTests */ = {
+		00E356EF1AD99517003FC87E /* BoardGameKeeperTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* TemplateTests.m */,
+				00E356F21AD99517003FC87E /* BoardGameKeeperTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = TemplateTests;
+			path = BoardGameKeeperTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Template */ = {
+		13B07FAE1A68108700A75B9A /* BoardGameKeeper */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Template;
+			name = BoardGameKeeper;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				48FC5926642378387484784C /* libPods-Template.a */,
-				45A63AAD9CBD7C50796E55EB /* libPods-Template-TemplateTests.a */,
+				48FC5926642378387484784C /* libPods-BoardGameKeeper.a */,
+				45A63AAD9CBD7C50796E55EB /* libPods-BoardGameKeeper-BoardGameKeeperTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Template */,
+				13B07FAE1A68108700A75B9A /* BoardGameKeeper */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* TemplateTests */,
+				00E356EF1AD99517003FC87E /* BoardGameKeeperTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				8AF7D934A95D022AFED0B487 /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Template.app */,
-				00E356EE1AD99517003FC87E /* TemplateTests.xctest */,
+				13B07F961A680F5B00A75B9A /* BoardGameKeeper.app */,
+				00E356EE1AD99517003FC87E /* BoardGameKeeperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		8AF7D934A95D022AFED0B487 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BA4D914F89AA059BEB7AB8B /* Pods-Template.debug.xcconfig */,
-				408DCACEAB5AB31220EF35F1 /* Pods-Template.release.xcconfig */,
-				2820A93A30554BC345D266EC /* Pods-Template-TemplateTests.debug.xcconfig */,
-				EED5ECE94E08B519977F1FA5 /* Pods-Template-TemplateTests.release.xcconfig */,
+				8BA4D914F89AA059BEB7AB8B /* Pods-BoardGameKeeper.debug.xcconfig */,
+				408DCACEAB5AB31220EF35F1 /* Pods-BoardGameKeeper.release.xcconfig */,
+				2820A93A30554BC345D266EC /* Pods-BoardGameKeeper-BoardGameKeeperTests.debug.xcconfig */,
+				EED5ECE94E08B519977F1FA5 /* Pods-BoardGameKeeper-BoardGameKeeperTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* TemplateTests */ = {
+		00E356ED1AD99517003FC87E /* BoardGameKeeperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TemplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BoardGameKeeperTests" */;
 			buildPhases = (
 				7A31C98008FA5B309FBDECBF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = TemplateTests;
-			productName = TemplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* TemplateTests.xctest */;
+			name = BoardGameKeeperTests;
+			productName = BoardGameKeeperTests;
+			productReference = 00E356EE1AD99517003FC87E /* BoardGameKeeperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Template */ = {
+		13B07F861A680F5B00A75B9A /* BoardGameKeeper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Template" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BoardGameKeeper" */;
 			buildPhases = (
 				B6B22F179887406C411ECD13 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = Template;
-			productName = Template;
-			productReference = 13B07F961A680F5B00A75B9A /* Template.app */;
+			name = BoardGameKeeper;
+			productName = BoardGameKeeper;
+			productReference = 13B07F961A680F5B00A75B9A /* BoardGameKeeper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Template" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BoardGameKeeper" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Template */,
-				00E356ED1AD99517003FC87E /* TemplateTests */,
+				13B07F861A680F5B00A75B9A /* BoardGameKeeper */,
+				00E356ED1AD99517003FC87E /* BoardGameKeeperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template/Pods-Template-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template/Pods-Template-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Template/Pods-Template-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		472F058211402ACBE31C4036 /* [CP] Embed Pods Frameworks */ = {
@@ -288,15 +288,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template/Pods-Template-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template/Pods-Template-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Template/Pods-Template-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper/Pods-BoardGameKeeper-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		602D229AD528CA495D6CB570 /* [CP] Embed Pods Frameworks */ = {
@@ -305,15 +305,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		627C0BE26482211B0ABF0E3F /* [CP] Copy Pods Resources */ = {
@@ -322,15 +322,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Template-TemplateTests/Pods-Template-TemplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoardGameKeeper-BoardGameKeeperTests/Pods-BoardGameKeeper-BoardGameKeeperTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7A31C98008FA5B309FBDECBF /* [CP] Check Pods Manifest.lock */ = {
@@ -348,7 +348,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Template-TemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BoardGameKeeper-BoardGameKeeperTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,7 +370,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Template-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BoardGameKeeper-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* TemplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* BoardGameKeeperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Template */;
+			target = 13B07F861A680F5B00A75B9A /* BoardGameKeeper */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2820A93A30554BC345D266EC /* Pods-Template-TemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 2820A93A30554BC345D266EC /* Pods-BoardGameKeeper-BoardGameKeeperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TemplateTests/Info.plist;
+				INFOPLIST_FILE = BoardGameKeeperTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoardGameKeeper.app/BoardGameKeeper";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED5ECE94E08B519977F1FA5 /* Pods-Template-TemplateTests.release.xcconfig */;
+			baseConfigurationReference = EED5ECE94E08B519977F1FA5 /* Pods-BoardGameKeeper-BoardGameKeeperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = TemplateTests/Info.plist;
+				INFOPLIST_FILE = BoardGameKeeperTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoardGameKeeper.app/BoardGameKeeper";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BA4D914F89AA059BEB7AB8B /* Pods-Template.debug.xcconfig */;
+			baseConfigurationReference = 8BA4D914F89AA059BEB7AB8B /* Pods-BoardGameKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Template/Info.plist;
+				INFOPLIST_FILE = BoardGameKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Template;
+				PRODUCT_NAME = BoardGameKeeper;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 408DCACEAB5AB31220EF35F1 /* Pods-Template.release.xcconfig */;
+			baseConfigurationReference = 408DCACEAB5AB31220EF35F1 /* Pods-BoardGameKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Template/Info.plist;
+				INFOPLIST_FILE = BoardGameKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Template;
+				PRODUCT_NAME = BoardGameKeeper;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TemplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BoardGameKeeperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Template" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BoardGameKeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Template" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BoardGameKeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
